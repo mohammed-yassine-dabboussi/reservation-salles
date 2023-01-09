@@ -10,7 +10,7 @@
 
             <div class="img_salle">
                 
-                <h1 class="background-color">Au service de votre événement</h1>
+                <h1 class="background-color">Une salle pour vos événements</h1>
             
                 <div>
                 <div class="right_block , background-color">
