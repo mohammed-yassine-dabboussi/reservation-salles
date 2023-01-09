@@ -1,0 +1,578 @@
+/********************************* Général *********************************/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  background-color: rgb(229, 227, 227);
+  min-height: 70vh;
+}
+
+a{
+  text-decoration: none;
+}
+
+.red{
+  background-color: #000000;
+  color: white;
+}
+/********************************* nav.php *********************************/
+
+header{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0) ;
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+  color: beige;
+  }
+
+#logo{
+  width: 70px;
+  height: 70px;
+  margin-left: 50%;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+header a{
+  color: beige;
+  display: flex;
+  flex-direction: row;
+}
+
+#logo_text{
+  margin-top: 5%;
+  margin-left: 15%;
+  font-size: 2em;
+  font-family: 'tech logo';
+  color: rgb(255, 255, 255);
+  width: auto;
+}
+
+#box1{
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+}
+
+#box2{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  padding-top: 10px;
+  padding-right: 50px;
+}
+
+#box2 a {
+  color: black;
+  font-family: 'roboto_regular';
+  font-weight: bold;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 3px;
+  background-color: rgb(250 250 250);
+  margin-right: 10px;
+ }
+    
+#box2 a:hover {
+  background-color: #f5ff9c00;
+  color: rgb(255, 255, 255);
+  border: solid 1px white;
+}
+
+#connected{
+  background-color: rgba(143, 143, 143, 0.632);
+  border-radius: 10px;
+  padding: 7px;
+  margin-right: 20px;
+}
+
+
+
+/********************************* footer.php *********************************/
+  
+  
+  footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #141414;
+    box-shadow:-2px 0px 30px #000000;
+  }
+  
+  #block-black-up{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+  }
+  
+  #block-black-down{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #block-black-down li{
+    cursor: pointer;
+  }
+  
+  #logo-block{
+    display: flex;
+    font-family: 'tech logo';
+    font-size: 50px;
+    margin-top: 15px;
+  }
+  
+  footer img{
+    width: 60px;
+  }
+  
+  footer ul{
+    display: flex;
+    list-style: none;
+  }
+  
+  footer li{
+    margin: 7px;
+  }
+  
+  #social-block h3{
+    font-size: 30px;
+  }
+  
+  #social-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #social-block img{
+    width: 30px;
+    height: 30px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  #social-block img:hover{
+    background-color:#bababa ;
+    border-radius: 5px;
+  }
+  
+  
+  #white-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    height: 30px;
+  }
+  
+  #white-block li{
+    cursor: pointer;
+  }
+  
+  footer a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+
+/********************************* index.php *********************************/
+#block1{
+  width: 100% ;
+  height: auto ;
+}
+
+.img_salle{
+  background-image: url("../img/salle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 78vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.right_block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.button {
+  position: relative;
+  border: none;
+  font-size: 15px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  margin: 20px;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.background-color{
+  background-color: #dfdedee2;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/********************************* index_con.php *********************************/
+.main_index_con{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.main_index_con h1{
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+/********************************* connexion.php *********************************/
+
+#main-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/salle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  background: #7b7b7b;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+#main-con h2{
+  margin-bottom: 15px;
+}
+
+#main-con form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.se_connecter{
+  margin-top: 10px ;
+  width: 150px;
+  padding: 12px;
+}
+
+/********************************* planning.php *********************************/
+#main_plan{
+  background-image: url("../img/salle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+}
+
+#main_plan h1{
+  margin: 10px ;
+}
+
+#planning_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+}
+
+.planning{
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.734);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 23px;
+}
+
+
+table {
+  border:2px solid #000000;
+  border-collapse:collapse;
+  width: 80%;
+  margin:auto;
+  margin-bottom: 20px;
+}
+
+tbody {
+  background-color:#ffffffec;
+}
+
+th {
+  padding:15px;
+  background-color:#eae9e9ec;
+  width: 10%;
+}
+
+td {
+  font-size:80%;
+  border:1px solid #000000;
+  padding:10px;
+  text-align:center;
+}
+
+#previous_week{
+  cursor: pointer;
+}
+
+#next_week{
+  cursor: pointer; 
+}
+
+
+
+/********************************* inscription.php *********************************/
+
+
+
+
+main{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 78vh;
+}
+
+.center{
+  text-align: center;
+}
+
+section{
+  width: 40%;
+  margin: 50px;
+}
+
+/*formulaire d'inscription*/
+
+.container {
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 3px 3px 15px rgb(181, 181, 181);
+}
+
+/* Full-width input fields */
+.container input[type=text], .container input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  display: inline-block;
+  border: none;
+  background: #e4e4e4;
+}
+
+/* Full-width input fields */
+.register input {
+  margin: 50px;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #797979;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a orange text color to links */
+a {
+  color: #5398ff;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.name{
+ display: flex;
+ align-items: center;
+ margin-bottom: 20px;
+}
+
+.name label{
+  margin-right: 20px;
+ }
+#name{
+  margin-left: 20px;
+ }
+
+ .register{
+  margin-bottom: 20px;
+  font-size: 25px;
+ }
+
+ #policy{
+  font-size: 15px;
+ }
+
+
+
+/**************** profil.php ****************/    
+
+#main_profil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/salle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 70vh;
+}
+
+#profil{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profil_h1{
+  font-size: 30px;
+  padding: 15px;
+}
+
+#main_profil input[type=text], #main_profil input[type=password] {
+  width: 80%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+.background-form-profil{
+  background-color: #dfdedee2;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+/**************** reservation-form.php ****************/
+
+#main_reserv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/salle.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 70vh;
+}
+
+#form_reserv{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#background-reserv{
+  background-color: #dfdedee2;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+
+#main_reserv input[type=text], #main_reserv input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+#main_reserv h1{
+  font-size: 30px;
+  padding: 15px;
+}
+
+.align_self{
+  align-self: center;
+}
